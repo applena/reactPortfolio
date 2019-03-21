@@ -6,7 +6,7 @@ import Photography from '../../img/pic04.png';
 import Dna from '../../img/pic06.png';
 import Vote from '../../img/pic07.png';
 import Waldo from '../../img/pic9.png';
-import './hoverLinks.scss';
+import './hoverLinks.css';
 
 class Portfolio extends React.Component{
   render (){
@@ -18,23 +18,23 @@ class Portfolio extends React.Component{
         </p>
 
         <div class="deck">
-          <div class="card">
+          <div id="store" class="card">
             <a href="https://github.com/applena/bazaar-front-end" target="blank"><img src={Bazaar} /></a>
             <h3>Bazaar-Fellows</h3>
           </div>
-          <div class="card">
+          <div id="photography" class="card">
             <a href="http://photography.lenaeivy.com" target="blank"><img src={Photography} /></a>
             <h3>Lena Eivy Photography</h3>
           </div>
-          <div class="card">
+          <div id="vote" class="card">
           <a href="https://know-your-vote.herokuapp.com/" target="blank"><img src={Vote} /></a>
             <h3>Know Your Vote</h3>
           </div>
-          <div class="card">
+          <div id="waldo" class="card">
             <a href="https://github.com/applena/where-is-the-server" target="blank"><img src={Waldo} /></a>
             <h3>WALDO</h3>
           </div>
-          <div class="card">
+          <div id="mom" class="card">
             <a href="http://dnadialogues.com/" target="blank"><img src={Dna} /></a>
             <h3>DNA Dialogues</h3>
           </div>
