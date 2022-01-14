@@ -8,11 +8,11 @@ import Vote from '../../img/pic07.png';
 import Waldo from '../../img/pic9.png';
 import './hoverLinks.css';
 
-class Portfolio extends React.Component{
-  render (){
-    return(
+class Portfolio extends React.Component {
+  render() {
+    return (
       <div id="portfolio">
-        <h2>Portoflio</h2>
+        <h2>Portfolio</h2>
         <p>
           Technology is an exciting field that is constantly changing and pushing the boundaries of innovation. As a life-long learner, I can think of no better industry to be a part of.
         </p>
@@ -27,7 +27,7 @@ class Portfolio extends React.Component{
             <h3>Lena Eivy Photography</h3>
           </div>
           <div id="vote" class="card">
-          <a href="https://know-your-vote.herokuapp.com/" target="blank"><img src={Vote} /></a>
+            <a href="https://know-your-vote.herokuapp.com/" target="blank"><img src={Vote} /></a>
             <h3>Know Your Vote</h3>
           </div>
           <div id="waldo" class="card">
